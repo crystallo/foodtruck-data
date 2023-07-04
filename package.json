@@ -1,0 +1,19 @@
+{
+  "name": "foodtruck-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/crystallo/foodtruck-data.git",
+  "author": "crystallo <crystallo0v0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node \"build/index.js\""
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.365.0",
+    "aws-sdk": "^2.1410.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
